@@ -1,0 +1,107 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+coverage/
+.vite/
+
+# React specific (CRA, Vite)
+public/static/
+*.tgz
+*.map
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# VSCode / JetBrains / IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac system files
+*.DS_Store
+
+# NPM logs & debug files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+*.lcov
+
+# Optional eslint and prettier logs
+.eslintcache
+.prettiercache
+
+# Typescript cache
+*.tsbuildinfo
+
+# PM2 process logs
+pids
+*.pid
+*.seed
+
+# Firebase or similar
+.firebase/
+.firebaserc
+
+# Optional Docker
+docker-compose.override.yml
+.docker/
+
+# Optional deployment configs
+.env.production
+.env.development
+.env.local
+.env.test
+
+# Parcel
+.cache/
+
+# Netlify
+.netlify/
+
+# Next.js
+.next/
+out/
+
+# Storybook
+storybook-static/
+
+# Optional: OS-specific (Linux/Windows)
+*.swp
+*.bak
+*.tmp
+*.orig
+*.old
+
+# Optional: Custom uploads or user files
+uploads/
+files/
